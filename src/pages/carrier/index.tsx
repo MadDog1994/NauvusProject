@@ -18,7 +18,7 @@ import { CarrierAndOwnerOperator } from "../../components/carrier-and-owner-oper
 const Carrier = () => {
   const [bestDescribes, setBestDesribes] = useState("");
   const [showPass, setShowPass] = useState(false);
-
+  const data = "hello "
   const [dataCarrier, setDataCarrier] = useState({
     firstName: "",
     lastName: "",
