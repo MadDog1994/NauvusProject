@@ -1,0 +1,41 @@
+.carrier-custom-button {
+  border-radius: 8px;
+
+  border: 1px solid #e2e8f0;
+  margin-bottom: 16px;
+  height: 75%;
+  display: flex;
+  align-items: center;
+
+  &_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 24px;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__image-container {
+    margin-right: 36px;
+  }
+
+  &_title {
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 8px;
+  }
+
+  &_description {
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 16px;
+    color: #758892;
+  }
+}
+
+.active {
+  border: 3px solid #2f80ed;
+}

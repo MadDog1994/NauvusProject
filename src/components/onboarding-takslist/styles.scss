@@ -1,0 +1,37 @@
+.container-wrapper {
+  &__main-right-side {
+    width: 60%;
+  }
+  &_app-container {
+    color: #2c3e50;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  &__app-wrapper-container {
+    margin-top: 32px;
+    margin-bottom: 8px;
+  }
+  &__onboard-block-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    margin-bottom: 16px;
+    height: 14%;
+  }
+}
+
+@media screen and (min-width: 1450px) {
+  .container-wrapper {
+    &__main-right-side {
+      width: 40%;
+      margin-right: 5%;
+    }
+  }
+}

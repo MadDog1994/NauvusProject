@@ -1,0 +1,197 @@
+.container-wrapper {
+  width: 60%;
+  height: 70vh;
+  margin-bottom: 7%;
+
+  &__main-container {
+    width: 80%;
+  }
+  &__ras {
+    height: 90px;
+  }
+
+  &__tri {
+    height: 90px;
+  }
+  &__onboarding-main-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  &__onboarding-wrapper {
+    width: 65%;
+  }
+
+  &_finish-text-field {
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 8px;
+
+    color: var(--gray-color);
+  }
+  &__button-field {
+    width: 20%;
+    border-radius: 20px;
+  }
+  &__profile-wrapper {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+  }
+  &__about-feed-field {
+    background-color: var(--light-white-color);
+    border-radius: 8px;
+    padding: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 24px;
+  }
+  &_about-feed-field-title {
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #2c3e50;
+    margin-bottom: 24px;
+  }
+  &_about-feed-field-title-inner-locale {
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: var(--medium-gray-color);
+    margin-bottom: 4px;
+    position: relative;
+  }
+  &_about-feed-field-title-inner-timezone {
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: var(--medium-gray-color);
+    margin-bottom: 4px;
+    position: relative;
+  }
+  &_about-feed-field-title-inner {
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: var(--medium-gray-color);
+    margin-bottom: 4px;
+    position: relative;
+  }
+  &_about-feed-field-title-inner-dispatch {
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: var(--gray-color);
+    margin-bottom: 16px;
+  }
+  &__about-feed-field-block {
+    width: 350px;
+  }
+  &_add {
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: var(--active-color);
+  }
+  &__info-container {
+    display: flex;
+    flex-direction: column;
+  }
+  &__contact-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+    border: 1px solid #e2e8f0;
+    margin-top: 24px;
+    border-radius: 16px;
+  }
+  &_contact-info-field {
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #2c3e50;
+    margin-bottom: 24px;
+  }
+  &_personal-info {
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #2c3e50;
+    margin-bottom: 16px;
+  }
+  &__finish-wrapper-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #fcf2f2;
+    padding: 32px;
+    border-radius: 8px;
+  }
+  &__finish-wrapper {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: #fcf2f2;
+    border-radius: 8px;
+    padding: 32px;
+  }
+  &__finish-onboard-field {
+    display: flex;
+    align-items: center;
+  }
+  &_edit {
+    display: flex;
+  }
+  &__info-container {
+    width: 100%;
+  }
+}
+.round-button {
+  border-radius: 20px;
+}
+
+@media screen and (min-width: 1450px) {
+  .container-wrapper {
+    width: 40%;
+    margin-right: 5%;
+  }
+}

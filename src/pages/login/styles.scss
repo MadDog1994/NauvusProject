@@ -1,0 +1,28 @@
+.title-container-welcome {
+  width: 50%;
+  &__field {
+    margin-bottom: 24px;
+  }
+}
+
+.button-container {
+  margin-top: 32px;
+}
+.reset-container {
+  margin-top: 32px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+.reset-button {
+  color: #2f80ed;
+}
+
+@media screen and (min-width: 1450px) {
+  .title-container-welcome {
+    width: 30%;
+  }
+}

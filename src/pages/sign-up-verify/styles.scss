@@ -1,0 +1,40 @@
+.verify-container {
+  width: 50%;
+}
+.title-container {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.title-text-container {
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+}
+.title-style-text {
+  font-weight: 300;
+}
+.button-container {
+  margin-top: 32px;
+}
+.resend-container {
+  margin-top: 32px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+.resend-button {
+  color: #2f80ed;
+}
+@media screen and (min-width: 1450px) {
+  .verify-container {
+    width: 30%;
+  }
+}

@@ -1,0 +1,36 @@
+.container-text-area {
+  height: 281px;
+  width: 100%;
+  left: 0px;
+  top: 128px;
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+
+  &_text-area {
+    position: relative;
+    width: inherit;
+    height: inherit;
+    overflow-y: scroll;
+    padding: 32px;
+    height: 100%;
+  }
+  ::-webkit-scrollbar-track {
+    background: #edf2f7;
+    width: 10px;
+
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    background: #edf2f7;
+    border-radius: 4px;
+    position: absolute;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #2f80ed;
+    border-radius: 4px;
+  }
+  &_text-area {
+    cursor: pointer;
+  }
+}

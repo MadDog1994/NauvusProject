@@ -1,0 +1,26 @@
+.checkBox-container {
+  width: 30%;
+  margin-bottom: 16px;
+  margin: 0 16px 16px 0;
+
+  &_button {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    padding: 16px;
+    border: 1px solid #e2e8f0;
+  }
+
+  &_image {
+    margin-right: 16px;
+  }
+  &_title {
+    color: #2c3e50;
+  }
+}
+
+.active {
+  border: 1px solid #2f80ed;
+}

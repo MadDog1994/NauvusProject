@@ -1,0 +1,26 @@
+.header-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 48px;
+
+  &__login-button {
+    text-decoration: none;
+  }
+
+  &__button-label {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--white-color);
+  }
+}
+.black {
+  color: #2c3e50;
+}
+.style_border {
+  border-bottom: 1px solid #f6f8fa;
+}

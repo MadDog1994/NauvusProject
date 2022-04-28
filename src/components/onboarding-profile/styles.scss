@@ -1,0 +1,100 @@
+.container-wrapper-profile {
+  &__profile {
+    color: #6464bc;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    height: 120px;
+    width: 120px;
+    border-radius: 120px;
+    background-color: #f0f0fe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+
+  &__contrainer-left-profile {
+    margin-bottom: 24px;
+  }
+  &__contrainer-left-profile-name {
+    color: #2c3e50;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 4px;
+  }
+  &__contrainer-left-profile-carrier {
+    display: flex;
+  }
+  &_contrainer-left-profile-carrier-name {
+    color: #758892;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-right: 4px;
+  }
+  &__contrainer-onboarding-tasklist {
+    display: flex;
+    height: 72px;
+    align-items: center;
+  }
+  &_tasklist-field {
+    color: #758892;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 16px;
+  }
+  &__contrainer-onboarding-org-info {
+    display: flex;
+    height: 72px;
+    align-items: center;
+  }
+  &_onboarding-org-field {
+    color: #758892;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 16px;
+  }
+  &__contrainer-onboarding-contact-support {
+    display: flex;
+    height: 72px;
+    align-items: center;
+  }
+  &_contact-support-field {
+    color: #758892;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 16px;
+  }
+}
+
+.active-tab {
+  color: #2f80ed;
+}

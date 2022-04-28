@@ -1,0 +1,157 @@
+.carrier-container-wrapper {
+  display: flex;
+  &__carrier-left-container {
+    width: 65%;
+    padding-bottom: 3%;
+  }
+
+  &__carrier-right-container {
+    width: 35%;
+  }
+  &__inputs-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 24px;
+  }
+  &__carrier-block-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  &__button-wrapper {
+    width: 15%;
+    margin-top: 32px;
+  }
+  &_background-image {
+    width: 100%;
+    height: 100vh;
+  }
+
+  &__label-style {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  &__text-field {
+    margin-right: 24px;
+    width: 50%;
+  }
+  &_label-style {
+    padding-bottom: 8px;
+  }
+  &__yourself-button {
+    width: 20%;
+    margin-top: 32px;
+  }
+  &__describes-block {
+    height: 96px;
+    width: 614px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+    padding: 24px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+  }
+
+  &__buttons-block {
+    width: 100%;
+    margin-top: 32px;
+  }
+
+  &__fields-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  &__fields-container-div {
+    width: 30%;
+  }
+
+  &__text-field-button-size {
+    width: 20%;
+    margin-top: 32px;
+  }
+
+  &__button-width {
+    width: 25%;
+  }
+  &__container-width {
+    width: 100%;
+  }
+  &__text-field-position {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  &__text-field-style {
+    margin-top: 56px;
+    width: 40%;
+    margin-left: 8px;
+  }
+  &__width-max {
+    width: 100%;
+  }
+  &__kindOfTrailer-style {
+    display: flex;
+    margin-right: 16px;
+    flex-wrap: wrap;
+    margin-top: 32px;
+  }
+  &__text-field-button-happy {
+    margin-top: 32px;
+    width: 45%;
+  }
+  &__text-field-container {
+    display: flex;
+    width: 100%;
+  }
+  &__carrier-contract {
+    width: 100%;
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+
+  &__field-ready-to-get-wrapper {
+    margin-bottom: 120px;
+  }
+  &_size-of-trailer {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #758892;
+    width: 100%;
+  }
+  &__size-of-trailer-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  &__best-describes-container {
+    height: 350px;
+    margin-bottom: 120px;
+  }
+  &__carrier-button-container {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.right-field {
+  margin-right: 0;
+}
+.under-title-margin {
+  margin-top: 4px;
+  margin-bottom: 32px;
+}
+.under-title-margin-top {
+  margin-top: 10px;
+}

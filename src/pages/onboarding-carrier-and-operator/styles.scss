@@ -1,0 +1,51 @@
+.onboarding-carrier {
+  &__carrier-onboarding-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  &_onboarding-progress-field {
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #2c3e50;
+    margin-bottom: 8px;
+  }
+  &_complete-the-task-field {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #2c3e50;
+    margin-bottom: 32px;
+  }
+  &_application-field {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #2c3e50;
+    margin-bottom: 8px;
+  }
+  &__block {
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (min-width: 1450px) {
+  .onboarding-carrier {
+    &__carrier-onboarding-container {
+      width: 40%;
+    }
+  }
+}

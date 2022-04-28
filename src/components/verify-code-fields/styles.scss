@@ -1,0 +1,17 @@
+.verify-input-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.verify-input {
+  border: 1px solid var(--white-color);
+  width: 20%;
+  height: 70px;
+  border-radius: 8px;
+  text-align: center;
+  color: var(--white-color);
+  font-family: Lato;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 24px;
+}
